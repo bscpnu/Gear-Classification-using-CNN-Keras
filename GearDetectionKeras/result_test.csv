@@ -1,0 +1,18 @@
+,image name,actual,predicted,0,1
+0,non_defect-3.bmp,non-defect,non-defect,0.00016307534,0.9998369
+1,defect-10.bmp,defect,defect,1.0,2.0609492e-09
+2,defect-26.bmp,defect,non-defect,1.8480724e-06,0.9999981
+3,non_defect-9.bmp,non-defect,non-defect,2.7508795e-08,1.0
+4,non_defect-33.bmp,non-defect,defect,0.9602121,0.039787892
+5,defect-1.bmp,defect,defect,1.0,7.9147824e-17
+6,non_defect-25.bmp,non-defect,non-defect,4.000334e-06,0.99999595
+7,defect-3.bmp,defect,defect,1.0,1.694419e-15
+8,defect-13.bmp,defect,defect,1.0,5.446328e-13
+9,defect-17.bmp,defect,defect,1.0,1.873347e-09
+10,non_defect-14.bmp,non-defect,non-defect,8.347727e-06,0.99999166
+11,defect-33.bmp,defect,defect,1.0,5.293176e-18
+12,non_defect-7.bmp,non-defect,non-defect,9.898229e-07,0.99999905
+13,defect-0.bmp,defect,defect,1.0,2.887195e-34
+14,non_defect-30.bmp,non-defect,non-defect,4.42991e-05,0.99995565
+15,defect-14.bmp,defect,defect,1.0,1.833808e-17
+16,defect-21.bmp,defect,defect,1.0,1.3468561e-08
