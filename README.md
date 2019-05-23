@@ -1,5 +1,5 @@
 # CNN Gear Classification using Keras
-
+We don't publish the gear data due to the confidential issue
 ### data
 ![alt text](gear_data.png)
 
