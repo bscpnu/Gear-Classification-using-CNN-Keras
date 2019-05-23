@@ -13,6 +13,7 @@ main_cnn contains main models for training and testing
 for tesing data (images) will be shown in result_test.csv
 
 ### output 
+![alt text](gear_loss.png)
 
 ![alt text](confusion_matrix.png)
 
