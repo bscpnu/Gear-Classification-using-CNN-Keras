@@ -12,6 +12,8 @@ from sklearn.metrics import roc_auc_score
 from sklearn.metrics import accuracy_score
 import numpy as np
 
+## author: Imam Mustafa Kamal
+## email: imamkamal52@gmail.com
 
 def cnn_model(data, img_size):
     model = Sequential()
@@ -40,7 +42,7 @@ def cnn_model(data, img_size):
 
     model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
 
-    history = model.fit(data.train.images, data.train.labels, validation_split=0.16, batch_size=1, epochs=100, verbose=1)
+    history = model.fit(data.train.images, data.train.labels, validation_split=0.16, batch_size=1, epochs=50, verbose=1)
 
     return model, history
 
@@ -116,7 +118,7 @@ if __name__=='__main__':
     data_class_proba = pd.DataFrame(pred_proba)
 
     data_act = np.where(data_labels_test['actual_label'] == 1, 'non-defect', 'defect')
-    data_pred = np.where(data_class_predict['predicted']== 1, 'non-defect', 'defect')
+    data_pred = np.where(data_class_predict['predicted']>= 0.5, 'non-defect', 'defect')
 
     df_data_act = pd.DataFrame(data_act, columns=['actual'])
     df_data_pred = pd.DataFrame(data_pred, columns=['predicted'])
